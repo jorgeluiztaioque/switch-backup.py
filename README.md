@@ -2,7 +2,7 @@
 
 This script help you make backups in switchs tp-link
 
-see models of switch:
+See switch models that I've tested.
 
 TL-SG2216
 
