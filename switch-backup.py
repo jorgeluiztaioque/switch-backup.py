@@ -17,23 +17,23 @@ child.logfile = sys.stdout #display progress of script on screm
 
 time.sleep(2)
 
-child.expect ('User:')
+child.expect ('User:') #wait user
 
-child.sendline (user+'\r')
+child.sendline (user+'\r') #send user
 
-child.expect('Password:')
+child.expect('Password:') #wait password
 
-child.sendline (password+'\r')
+child.sendline (password+'\r') #send password
 
 child.sendline ('\r')
 
 time.sleep(2)
 
-child.sendline (' enable\n'+'\r')
+child.sendline (' enable\n'+'\r') #change mode to enable mode
 
-child.expect('#')
+child.expect('#') #wait # enable mode
 
-child.sendline ('copy startup-config tftp ip-address '+TFTPSERVER+' filename bksw-'+HOST+ '\r')
+child.sendline ('copy startup-config tftp ip-address '+TFTPSERVER+' filename bksw-'+HOST+ '\r') #send command to upload startup-config to TFTP server
 time.sleep(2)
 
-child.sendline ('logout \r')
+child.sendline ('logout \r') #exit switch console
