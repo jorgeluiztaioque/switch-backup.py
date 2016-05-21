@@ -10,7 +10,7 @@ Dell
 
 Quanta
 
-I tested in these models. 
+Tested in these models. 
 
 TL-SG2216
 TL-SG2424
