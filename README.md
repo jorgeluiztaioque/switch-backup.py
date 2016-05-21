@@ -1,6 +1,6 @@
 # switch-backup.py
 
-This script help you make backups of switchs like:
+This script help you do backups of switchs like:
 
 TP-Link
 
