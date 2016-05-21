@@ -3,8 +3,11 @@
 This script help you make backups of switchs like:
 
 TP-Link
+
 Dlink
+
 Dell
+
 Quanta
 
 I tested in these models. 
